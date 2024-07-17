@@ -1,0 +1,1 @@
+export const api = "http://" + window.location.hostname + ":3002"

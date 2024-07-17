@@ -1,0 +1,16 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+  font-family: 'SF Pro Display';
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Apply blur to all cards except the hovered one */
+.card.blur {
+  filter: blur(10px); /* Reset the filter on the hovered card */
+  z-index: 1; /* Ensure hovered card is on top */
+}
